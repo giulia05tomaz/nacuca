@@ -69,13 +69,23 @@
       </div>
   </header>
   <!-- ***** Header Area End ***** -->
-<section style="height: 600px;">
+<section style="height: 1000px;">
     
   <div class="login" >
-	<h1 style="margin-bottom: 20px;">Login</h1>
+	<h1 style="margin-bottom: 20px;">Cadastro</h1>
     <form method="post">
-    	<input type="text" name="email" placeholder="email" required="required" />
-        <input type="password" name="senha" placeholder="senha" required="required" />
+    	<input type="text" name="nome" placeholder="Nome completo" required="required" />
+        <input type="text" name="cpf" placeholder="CPF" required="required" />
+        <input type="text" name="dtnascimento" placeholder="Data de Nascimento" required="required" />
+        <input type="text" name="email" placeholder="email" required="required" />
+        <input type="text" name="senha" placeholder="senha" required="required" />
+        <input type="text" name="contato" placeholder="contato" required="required" />
+        <label for="tipo-usuario">Selecione o tipo de usuário:</label>
+<select id="tipo-usuario" name="tipo-usuario">
+  <option value="educador">Educador</option>
+  <option value="aluno">Aluno</option>
+  <option value="parceiro">Parceiro</option>
+</select>
         <button type="submit" class="btn btn-primary btn-block btn-large">Entrar</button>
     </form>
 </div>
@@ -200,6 +210,33 @@ input {
 	transition: box-shadow .5s ease;
 }
 input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+
+
+
+
+
+select{ 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+select:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
 
 </style>
 
