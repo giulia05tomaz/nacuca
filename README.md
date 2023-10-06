@@ -28,7 +28,7 @@ O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se
 
 ## Figma
 
-https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
+site: https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
 
 ## Contribuição
 
