@@ -29,7 +29,7 @@ site: "https://giulia05tomaz.github.io/nacuca/index.html"
 
 <img src="banco.png">
 
-<img src="Bancosupabase.png>
+<img src="Bancosupabase.png">
 
 ## Sobre o Software
 
