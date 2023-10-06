@@ -12,7 +12,7 @@ O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se
 site: "https://giulia05tomaz.github.io/nacuca/index.html"
 
 ## Uso
-1. Faça o cadastro, caso já tenha, faça o login.
+1. Para test, use o login: .
 
 <img src="login.gif">
 
@@ -24,6 +24,10 @@ site: "https://giulia05tomaz.github.io/nacuca/index.html"
 4. Caso seja educador, pode acompanhar as aulas em alta, e adicionar mais cursos.
 
 <img src="edu.gif">
+
+## Diagrama de entidade e relacionamento
+
+<img src="banco.png">
 
 
 ## Figma
@@ -96,4 +100,6 @@ Este software é protegido por direitos autorais e é fornecido sob os termos de
    9.1. Ao usar este software, o Licenciado indica sua aceitação dos termos e condições desta Licença.
 
 Este é um contrato legal entre o Licenciante e o Licenciado. Ao utilizar este software, você concorda em cumprir os termos desta Licença.
+
+
 
