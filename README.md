@@ -8,10 +8,6 @@ O **NaCuca** é o site que vai ajudar a população de Embu-Guaçu a se estrutur
 
 O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se desenvolver, e estamos comprometidos em criar um ambiente inclusivo onde isso seja possível. Nosso objetivo é transformar vidas, conectar a comunidade e oferecer oportunidades para todos alcançarem seu pleno potencial. Junte-se a nós nesta jornada de aprendizado, desenvolvimento e conexão!
 
-## Instalação
-
-Instruções de instalação do projeto.
-
 ## Uso
 1. Faça o cadastro, caso já tenha, faça o login.
 
