@@ -21,7 +21,7 @@ Instruções de instalação do projeto.
 
 
 3. Caso seja um parceiro, acesse a plataforma como parceiro, e escolha o plano que deseja de parceria.
-<img src="https://github.com/giulia05tomaz/nacuca/blob/main/parce.gif">
+<img src="parce.gif">
 ## Contribuição
 
 Instruções para contribuir com o projeto.
