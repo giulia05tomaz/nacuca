@@ -19,7 +19,6 @@ Instruções de instalação do projeto.
 
 2. Após isso, acesse a plataforma e faça a inscrição em um workshop caso seja um aluno.
 
-
 3. Caso seja um parceiro, acesse a plataforma como parceiro, e escolha o plano que deseja de parceria.
 <img src="parce.gif">
 
@@ -31,18 +30,26 @@ Instruções de instalação do projeto.
 
 Caso deseje contribuir, entre em contato conosco: +55 (11) 940897882.
 
-## email's para contato: ## 
-giulia05tomaz@gmail.com
-thaishagler@gmail.com
-vinicius.silva@prometeon.com
-mateus.bezerra@prometeon.com
+## E-mail's para contato: ## 
+
+**Giulia:** giulia05tomaz@gmail.com
+
+**Thaís:** thaishagler@gmail.com
+
+**Vinícius:** vinicius.silva@prometeon.com
+
+**Mateus:** mateus.bezerra@prometeon.com
 
 ## Colaboradores
 
 Giulia
+
 Thais
+
 Vinicius
+
 Mateus
+
 ## Licença
 
 Licença do projeto.
