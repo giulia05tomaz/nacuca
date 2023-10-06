@@ -31,7 +31,7 @@ Instruções de instalação do projeto.
 
 Caso deseje contribuir, entre em contato conosco: +55 (11) 940897882.
 
-email's para contato:
+## email's para contato: ## 
 giulia05tomaz@gmail.com
 thaishagler@gmail.com
 vinicius.silva@prometeon.com
