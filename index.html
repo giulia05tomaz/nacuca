@@ -76,10 +76,35 @@
     <form method="post">
     	<input type="text" name="email" placeholder="email" required="required" />
         <input type="password" name="senha" placeholder="senha" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Entrar</button>
+        <button type="submit" id="login-btn" class="btn btn-primary btn-block btn-large">Entrar</button>
         <a href="cadastro.html">Não tenho uma conta. Cadastrar-se</a>
     </form>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Seleciona o formulário de login
+    const loginForm = document.querySelector("form");
+
+    // Adiciona um evento de envio (submit) ao formulário
+    loginForm.addEventListener("submit", function (event) {
+      // Evita o envio padrão do formulário
+      event.preventDefault();
+
+      // Simula uma autenticação bem-sucedida (substitua por sua lógica real)
+      const isAuthenticated = true;
+
+      if (isAuthenticated) {
+        // Redireciona o usuário para a página de dashboard após o login
+        window.location.href = "dashboard.html";
+      } else {
+        // Lógica para tratamento de erro de autenticação (opcional)
+        alert("Login falhou. Verifique suas credenciais.");
+      }
+    });
+  });
+</script>
+
 
 </section>
 
