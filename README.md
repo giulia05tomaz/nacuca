@@ -9,7 +9,7 @@ O **NaCuca** é o site que vai ajudar a população de Embu-Guaçu a se estrutur
 O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se desenvolver, e estamos comprometidos em criar um ambiente inclusivo onde isso seja possível. Nosso objetivo é transformar vidas, conectar a comunidade e oferecer oportunidades para todos alcançarem seu pleno potencial. Junte-se a nós nesta jornada de aprendizado, desenvolvimento e conexão!
 
 
-"https://giulia05tomaz.github.io/nacuca/index.html"
+site: "https://giulia05tomaz.github.io/nacuca/index.html"
 
 ## Uso
 1. Faça o cadastro, caso já tenha, faça o login.
@@ -28,7 +28,7 @@ O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se
 
 ## Figma
 
-site: https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
+https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
 
 ## Contribuição
 
