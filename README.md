@@ -12,7 +12,7 @@ O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se
 site: "https://giulia05tomaz.github.io/nacuca/index.html"
 
 ## Uso
-1. Para test, use o login: .
+1. Para test, use o login: fiap@fiap.com e senha: Fiap.
 
 <img src="login.gif">
 
