@@ -46,13 +46,13 @@ Caso deseje contribuir, entre em contato conosco: +55 (11) 940897882.
 
 ## Colaboradores
 
-Giulia
+Giulia Moraes
 
-Thais
+Thaís Hagler
 
-Vinicius
+Vinicius Herrera
 
-Mateus
+Mateus Marinho
 
 ## Licença
 
