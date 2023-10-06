@@ -22,10 +22,27 @@ Instruções de instalação do projeto.
 
 3. Caso seja um parceiro, acesse a plataforma como parceiro, e escolha o plano que deseja de parceria.
 <img src="parce.gif">
+
+4. Caso seja educador, pode acompanhar as aulas em alta, e adicionar mais cursos.
+
+<img src="edu.gif">
+
 ## Contribuição
 
-Instruções para contribuir com o projeto.
+Caso deseje contribuir, entre em contato conosco: +55 (11) 940897882.
 
+email's para contato:
+giulia05tomaz@gmail.com
+thaishagler@gmail.com
+vinicius.silva@prometeon.com
+mateus.bezerra@prometeon.com
+
+## Colaboradores
+
+Giulia
+Thais
+Vinicius
+Mateus
 ## Licença
 
 Licença do projeto.
