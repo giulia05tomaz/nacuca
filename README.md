@@ -15,13 +15,13 @@ Instruções de instalação do projeto.
 ## Uso
 1. Faça o cadastro, caso já tenha, faça o login.
 
-<img src="assets/images/login.gif">
+<img src="login.gif">
 
 2. Após isso, acesse a plataforma e faça a inscrição em um workshop caso seja um aluno.
 
 
 3. Caso seja um parceiro, acesse a plataforma como parceiro, e escolha o plano que deseja de parceria.
-<img src="assets/images/parce.gif">
+<img src="parce.gif">
 ## Contribuição
 
 Instruções para contribuir com o projeto.
