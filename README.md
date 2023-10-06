@@ -30,6 +30,25 @@ site: "https://giulia05tomaz.github.io/nacuca/index.html"
 <img src="banco.png">
 
 
+## Sobre o Software
+
+Este projeto foi desenvolvido com o objetivo de proporcionar uma solução de software eficiente e poderosa. Foi criado utilizando o [Supabase](https://supabase.io/) como ferramenta de banco de dados e backend. O Supabase é uma plataforma de desenvolvimento de aplicativos que oferece um conjunto abrangente de recursos para facilitar o desenvolvimento de aplicativos web e móveis.
+
+## Por que o Supabase?
+
+A escolha do Supabase como a ferramenta principal para o banco de dados e o backend deste software foi feita devido às suas inúmeras vantagens:
+
+- **Facilidade de Uso**: O Supabase fornece uma interface amigável e intuitiva que simplifica o processo de criação e gerenciamento de bancos de dados e APIs.
+
+- **Rápido Desenvolvimento**: Com o Supabase, você pode acelerar o desenvolvimento de aplicativos, economizando tempo na configuração de infraestrutura e se concentrando mais na lógica de negócios.
+
+- **Segurança**: O Supabase oferece recursos de segurança robustos, incluindo autenticação, autorização e criptografia de dados, para manter seus aplicativos protegidos contra ameaças.
+
+- **Escalabilidade**: À medida que seu aplicativo cresce, o Supabase é escalável, garantindo que ele possa lidar com um aumento no tráfego e nos dados sem problemas.
+
+- **Comunidade Ativa**: A comunidade de desenvolvedores do Supabase é ativa e solidária, o que significa que você terá acesso a suporte e recursos adicionais para o seu projeto.
+
+
 ## Figma
 
 https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
