@@ -1,82 +1,74 @@
+# Na Cuca
 
+Protótipo de plataforma comunitária voltada a workshops e oportunidades de desenvolvimento profissional em Embu-Guaçu. O repositório reúne páginas para alunos, educadores e parceiros, materiais de apresentação e documentação de dados.
 
+> **Status:** protótipo de frontend. O arquivo `backend/main.py` é um rascunho incompleto, com instruções de instalação dentro do código e um import incorreto de FastAPI. Ele não representa uma API executável. Cadastro, inscrição e gestão de cursos não devem ser tratados como serviços completos nesta versão.
 
-# NaCuca
-O **NaCuca** é o site que vai ajudar a população de Embu-Guaçu a se estruturar profissionalmente, aumentar a sua renda e a se tornar referência em sua área de atuação dentro de sua comunidade.
+## Interface e objetivo
 
-<img src="https://github.com/giulia05tomaz/nacuca/blob/main/IDV_nanuca.png">
+- Páginas de apresentação, cadastro, alunos, educadores e parceiros.
+- Seções de encontros, navegação, carrosséis e recursos visuais em JavaScript.
+- Materiais históricos do modelo de dados e do desenho da interface.
 
-O **NaCuca** acredita que todos merecem a oportunidade de crescer, aprender e se desenvolver, e estamos comprometidos em criar um ambiente inclusivo onde isso seja possível. Nosso objetivo é transformar vidas, conectar a comunidade e oferecer oportunidades para todos alcançarem seu pleno potencial. Junte-se a nós nesta jornada de aprendizado, desenvolvimento e conexão!
+O objetivo do protótipo é apresentar os fluxos e a proposta da plataforma. Parte dos formulários e links depende de implementação adicional.
 
+## Tecnologias e arquitetura
 
-site: "https://giulia05tomaz.github.io/nacuca/index.html"
+| Área | Presente no repositório |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript, Bootstrap e jQuery |
+| Componentes visuais | Owl Carousel, Isotope, Lightbox e scripts de navegação |
+| Dados | Script SQL e diagramas; materiais históricos referentes ao Supabase |
+| Backend | Rascunho Python/FastAPI incompleto |
 
-## Uso
-1. Para test, use o login: fiap@fiap.com e senha: Fiap.
+As páginas e os assets são servidos como arquivos estáticos. O repositório não fornece um backend funcional integrado, testes automatizados ou workflow de GitHub Actions.
 
-<img src="login.gif">
+## Execução local
 
-2. Após isso, acesse a plataforma e faça a inscrição em um workshop caso seja um aluno.
+Não é necessário instalar dependências npm para visualizar o frontend. Com Git e Python 3 instalados:
 
-3. Caso seja um parceiro, acesse a plataforma como parceiro, e escolha o plano que deseja de parceria.
-<img src="parce.gif">
+```sh
+git clone https://github.com/giulia05tomaz/nacuca.git
+cd nacuca
+python -m http.server 8000 --bind 127.0.0.1
+```
 
-4. Caso seja educador, pode acompanhar as aulas em alta, e adicionar mais cursos.
+Abra `http://127.0.0.1:8000/index.html`. Esse comando serve somente os arquivos do protótipo; não habilita autenticação ou persistência dos formulários.
 
-<img src="edu.gif">
+## Estrutura
 
-## Diagrama de entidade e relacionamento
+```text
+index.html           página inicial
+cadastro.html        tela de cadastro
+aluno.html           área de aluno
+educadores.html      área de educador
+Parceiros.html       área de parceiros
+assets/              estilos, scripts, imagens e fontes
+vendor/              bibliotecas de frontend
+backend/main.py      rascunho de backend
+backend/db_nacuca.sql material de estrutura de dados
+```
 
-<img src="banco.png">
+## Materiais existentes
 
-<img src="Bancosupabase.png">
+![Identidade visual do Na Cuca](IDV_nanuca.png)
 
-## Sobre o Software
+| Modelo de dados | Material do Supabase |
+| --- | --- |
+| ![Diagrama de dados](banco.png) | ![Material de dados do protótipo](Bancosupabase.png) |
 
-Este projeto foi desenvolvido com o objetivo de proporcionar uma solução de software eficiente e poderosa. Foi criado utilizando o [Supabase](https://supabase.io/) como ferramenta de banco de dados e backend. O Supabase é uma plataforma de desenvolvimento de aplicativos que oferece um conjunto abrangente de recursos para facilitar o desenvolvimento de aplicativos web e móveis.
+As imagens registram o desenho do projeto e não comprovam uma integração atualmente operacional.
 
-## Por que o Supabase?
+[Protótipo no Figma](https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled)
 
-A escolha do Supabase como a ferramenta principal para o banco de dados e o backend deste software foi feita devido às suas inúmeras vantagens:
+## Validação e próximos passos
 
-- **Facilidade de Uso**: O Supabase fornece uma interface amigável e intuitiva que simplifica o processo de criação e gerenciamento de bancos de dados e APIs.
-
-- **Rápido Desenvolvimento**: Com o Supabase, você pode acelerar o desenvolvimento de aplicativos, economizando tempo na configuração de infraestrutura e se concentrando mais na lógica de negócios.
-
-- **Segurança**: O Supabase oferece recursos de segurança robustos, incluindo autenticação, autorização e criptografia de dados, para manter seus aplicativos protegidos contra ameaças.
-
-- **Escalabilidade**: À medida que seu aplicativo cresce, o Supabase é escalável, garantindo que ele possa lidar com um aumento no tráfego e nos dados sem problemas.
-
-- **Comunidade Ativa**: A comunidade de desenvolvedores do Supabase é ativa e solidária, o que significa que você terá acesso a suporte e recursos adicionais para o seu projeto.
-
-
-## Figma
-
-https://www.figma.com/file/O6E4bHy2kiD2ywABrqbids/Untitled?type=design&node-id=0%3A1&mode=design&t=34yTQC62baltvk3E-1
-
-## Contribuição
-
-Caso deseje contribuir, entre em contato conosco: +55 (11) 940897882.
-
-## E-mail's para contato: ## 
-
-**Giulia:** giulia05tomaz@gmail.com
-
-**Thaís:** thaishagler@gmail.com
-
-**Vinícius:** vinicius.silva@prometeon.com
-
-**Mateus:** mateus.bezerra@prometeon.com
+A validação disponível é manual: navegação, carregamento de assets e comportamento responsivo. Antes de evoluir o backend, separar instruções de instalação do código, corrigir os imports, definir dependências e implementar endpoints, persistência e testes.
 
 ## Colaboradores
 
-Giulia Moraes
+Giulia Moraes · Thaís Hagler · Vinicius Herrera · Mateus Marinho
 
-Thaís Hagler
-
-Vinicius Herrera
-
-Mateus Marinho
 
 ## Licença
 
@@ -120,6 +112,3 @@ Este software é protegido por direitos autorais e é fornecido sob os termos de
    9.1. Ao usar este software, o Licenciado indica sua aceitação dos termos e condições desta Licença.
 
 Este é um contrato legal entre o Licenciante e o Licenciado. Ao utilizar este software, você concorda em cumprir os termos desta Licença.
-
-
-
